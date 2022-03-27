@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Chat App Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeebAwad/chat-app.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Mhd Adib Awad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdeebAwad/chat-app/issues"
+  },
+  "homepage": "https://github.com/AdeebAwad/chat-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
